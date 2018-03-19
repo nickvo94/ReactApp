@@ -70,6 +70,7 @@ function editObject(row) {
     // buttonEditFormatter(index);
     const cellEditProp = {                
         mode: 'click',
+        blurToSave: true,
         nonEditableRows: function() {
             console.log("cellEditProp: nonEditableRows()");
             var array= [];            
